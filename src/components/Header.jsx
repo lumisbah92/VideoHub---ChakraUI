@@ -19,6 +19,7 @@ const Header = () => {
   return (
     <>
       <Button
+        zIndex={'overlay'}
         pos={'fixed'}
         top={'4'}
         left={'4'}
@@ -84,7 +85,7 @@ const Header = () => {
                 colorScheme="purple"
                 variant={'outline'}
               >
-                <Link to={'/singup'}>Sign Up</Link>
+                <Link to={'/signup'}>Sign Up</Link>
               </Button>
             </HStack>
           </DrawerBody>
